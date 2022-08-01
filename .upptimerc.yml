@@ -5,18 +5,24 @@ repo: uptime # The name of this repository
 sites:
   - name: CP
     url: https://capital-placement.com/
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: CP Blog
+    url: https://capital-placement.com/blog/
+  - name: CP Dev
+    url: https://cwdev.capital-placement.com/
+  - name: Accounting Sector/ Industry Page
+    url: https://capital-placement.com/accounting-audit/
+  - name: TCC
+    url: https://the-consulting.co/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.capital-placement.com
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Uptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://capital-placement.com/wp-content/uploads/2020/05/cp-logo-4-1.png
+  name: Capital Placement
+  introTitle: "Service status"
+  introMessage: ""
   navbar:
     - title: Status
       href: /
