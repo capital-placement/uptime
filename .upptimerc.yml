@@ -5,14 +5,24 @@ repo: uptime # The name of this repository
 sites:
   - name: CP
     url: https://capital-placement.com/
+    icon: https://capital-placement.b-cdn.net/wp-content/uploads/2019/07/favicon.ico
   - name: CP Blog
     url: https://capital-placement.com/blog/
+    icon: https://capital-placement.b-cdn.net/wp-content/uploads/2019/07/favicon.ico
   - name: CP Dev
     url: https://cwdev.capital-placement.com/
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 401
+    icon: https://capital-placement.b-cdn.net/wp-content/uploads/2019/07/favicon.ico
   - name: Accounting Sector/ Industry Page
     url: https://capital-placement.com/accounting-audit/
+    icon: https://capital-placement.b-cdn.net/wp-content/uploads/2019/07/favicon.ico
   - name: TCC
     url: https://the-consulting.co/
+    icon: https://the-consulting.co/wp-content/uploads/2020/09/icon.ico
+
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -28,6 +38,9 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+
+  i18n:
+    footer: Copyright © 2022 Capital Placement.
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
